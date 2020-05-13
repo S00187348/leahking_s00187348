@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace leahking_s00187348
+{
+    class Phone
+    {
+        string Name { get; set; }
+        int Price { get; set; }
+        string Operating_System { get; set; }
+        string OS_Image { get; set; }
+        string Phone_Image { get; set; }
+
+
+    }
+}
