@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace leahking_s00187348
 {
-    class Phone
+    public class Phone
     {
         string Name { get; set; }
         int Price { get; set; }
@@ -14,6 +14,34 @@ namespace leahking_s00187348
         string OS_Image { get; set; }
         string Phone_Image { get; set; }
 
+        List<Phone> AllPhone = new List<Phone>();
+        private string v1;
+        private int v2;
+        private string v3;
+        private string v4;
+        private string v5;
+
+        public Phone(string v1, int v2, string v3, string v4, string v5)
+        {
+            this.v1 = v1;
+            this.v2 = v2;
+            this.v3 = v3;
+            this.v4 = v4;
+            this.v5 = v5;
+        }
+    }
+
+    private static void IncreasePrice(double Price)
+    {
+       double percentage = 0.5;
+        Price = Price * percentage;
+
+        return Price;
+
+
+
 
     }
+
+
 }
