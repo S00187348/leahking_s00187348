@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace leahking_s00187348
+{
+    public class Phone
+    {
+        string Name { get; set; }
+        int Price { get; set; }
+        string Operating_System { get; set; }
+        string OS_Image { get; set; }
+        string Phone_Image { get; set; }
+
+        List<Phone> AllPhone = new List<Phone>();
+
+    }
+
+    private static void IncreasePrice(double Price)
+    {
+       double percentage = 0.5;
+        Price = Price * percentage;
+
+        return Price;
+
+
+
+
+    }
+
+
+}
