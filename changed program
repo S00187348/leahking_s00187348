@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace leahking_s00187348
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Phone p1 = new Phone("samsung s20",500,"android", "C:/Users/s00187348/Desktop/exam/images/andriod.jpg ", "C:/Users/s00187348/Desktop/exam/images/s20.jpg");
+            Phone p2 = new Phone("iphone 11",600,"IOS", "C:/Users/s00187348/Desktop/exam/images/apple.jpg ", "C:/ Users/s00187348/Desktop/exam/images /iPhone11.jpg");
+           // using (DBNull) 
+            //{
+
+
+            //}
+
+
+
+        }
+        
+
+    }
+}
